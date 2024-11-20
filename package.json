@@ -1,0 +1,30 @@
+{
+  "name": "chunyi-utils",
+  "version": "1.1.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/chunyi-utils.cjs.js",
+  "browser": "dist/chunyi-utils.umd.js",
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellie-qiong/chunyi-utils.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
